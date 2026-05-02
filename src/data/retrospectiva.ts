@@ -138,6 +138,11 @@ export const slides: SlideData[] = [
     type: 'childhood',
   },
   {
+    id: 825,
+    type: 'cinematic_text',
+    text: 'Nossos destinos foram traçados desde à maternidade',
+  },
+  {
     id: 85,
     type: 'transition',
     text: 'Nossas idas ao cinema...',

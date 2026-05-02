@@ -128,20 +128,11 @@ export function ChildhoodConnection({ onNext }: { onNext?: () => void }) {
             <h3 className="text-3xl md:text-4xl font-black text-green-400 italic mb-4">
               "Eu né, bobo!"
             </h3>
-            <div className="p-5 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm mb-6">
+            <div className="p-5 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm mb-12">
               <p className="text-sm md:text-base text-white/90 leading-relaxed font-medium">
                 Nossos caminhos já estavam traçados muito antes de cruzarem. Conectados pelo destino desde a maternidade. ❤️
               </p>
             </div>
-
-            <motion.p
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               transition={{ delay: 1.5 }}
-               className="text-green-500 font-bold text-sm mb-8 animate-pulse"
-            >
-               Nossos destinos foram traçados na maternidade..
-            </motion.p>
 
             <motion.button
               style={{ opacity: showButton }}
