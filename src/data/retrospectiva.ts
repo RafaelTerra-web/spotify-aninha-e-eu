@@ -168,7 +168,7 @@ export const slides: SlideData[] = [
     id: 10,
     type: 'story',
     title: 'Nosso próprio ritmo',
-    text: 'A gente pode não ter o moonwalk do Michael, mas o jeito que a gente se entende e se diverte junto é o que realmente faz a nossa trilha sonora ser única.',
+    text: 'Eu juro que tentei fazer os bonequinhos dançarem igual ao Michael, mas a habilidade de desenvolvedor não colaborou... O que vale é a intenção e o quanto a gente se diverte tentando!',
     image: '/images/Nós 2.jpeg',
     gradient: 'gradient-bg',
   },
