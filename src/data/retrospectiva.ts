@@ -148,6 +148,14 @@ export const slides: SlideData[] = [
     text: 'Nossas idas ao cinema...',
   },
   {
+    id: 86,
+    type: 'story',
+    title: 'Mais que apenas ingressos',
+    text: 'Eu nunca vou esquecer o cuidado que você teve ao garantir nossos ingressos na estreia. Eu provavelmente teria esquecido, mas você me trouxe essa atenção e esse carinho que eu guardo no fundo do meu coração.',
+    image: '/images/NósNoPrimeiroFilmeJuntos.jpeg',
+    gradient: 'gradient-bg',
+  },
+  {
     id: 80,
     type: 'horror',
   },
