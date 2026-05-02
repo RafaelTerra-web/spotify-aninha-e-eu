@@ -160,7 +160,20 @@ export const slides: SlideData[] = [
     type: 'movie',
   },
   {
+    id: 91,
+    type: 'transition',
+    text: 'Confessa, você achou que a gente ia dançar igual a ele né?',
+  },
+  {
     id: 10,
+    type: 'story',
+    title: 'Nosso próprio ritmo',
+    text: 'A gente pode não ter o moonwalk do Michael, mas o jeito que a gente se entende e se diverte junto é o que realmente faz a nossa trilha sonora ser única.',
+    image: '/images/Nós 2.jpeg',
+    gradient: 'gradient-bg',
+  },
+  {
+    id: 100,
     type: 'timeline',
   },
   {
