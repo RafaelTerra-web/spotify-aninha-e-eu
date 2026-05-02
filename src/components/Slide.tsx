@@ -60,8 +60,8 @@ export function Slide({
     const width = window.innerWidth;
     const x = e.clientX;
     
-    // Disable manual taps for cinematic types
-    if (slide.type === 'cinematic_text' || slide.type === 'horror' || slide.type === 'space_movie' || slide.type === 'movie' || slide.type === 'transition') {
+    // Disable manual taps for cinematic types and interactive childhood slide
+    if (slide.type === 'cinematic_text' || slide.type === 'horror' || slide.type === 'space_movie' || slide.type === 'movie' || slide.type === 'transition' || slide.type === 'childhood') {
       return;
     }
 
